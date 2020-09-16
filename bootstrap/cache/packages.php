@@ -1,0 +1,73 @@
+<?php return array (
+  'beyondcode/laravel-dump-server' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'BeyondCode\\DumpServer\\DumpServerServiceProvider',
+    ),
+  ),
+  'cornford/googlmapper' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Cornford\\Googlmapper\\MapperServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Mapper' => 'Cornford\\Googlmapper\\Facades\\MapperFacade',
+    ),
+  ),
+  'fideloper/proxy' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    ),
+  ),
+  'laravel/dusk' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Dusk\\DuskServiceProvider',
+    ),
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'modelizer/selenium' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Modelizer\\Selenium\\SeleniumServiceProvider',
+    ),
+  ),
+  'nesbot/carbon' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Carbon\\Laravel\\ServiceProvider',
+    ),
+  ),
+  'nunomaduro/collision' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    ),
+  ),
+  'thomaswelton/laravel-gravatar' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Thomaswelton\\LaravelGravatar\\LaravelGravatarServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Gravatar' => 'Thomaswelton\\LaravelGravatar\\Facades\\Gravatar',
+    ),
+  ),
+);
